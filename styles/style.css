@@ -18,9 +18,15 @@
     padding: 3rem;
 }
 
-.div-nav-3 {
+.nav {
+    width: 343px;
+    font-weight: 500;
+    line-height: 4rem;
+}
 
-    font-size: 2.8rem;
+.icons {
+
+    font-size: 3rem;
 }
 /* navbar ended */
 
@@ -56,7 +62,12 @@
 }
 /* background img start */
 
+
 /* div 2 */
+.container-2 {
+    margin: 10rem 0rem;
+    gap: 2.4rem;
+}
 .choosing {
     font-size: 4.8rem;
     width: 1240px;
@@ -64,6 +75,7 @@
 
 .parent-2 {
     width: 1238.99px;
+    margin: 2.4rem 0rem;
 }
 
 .child-2 {
@@ -82,3 +94,82 @@
     line-height: 40px;
 }
 /* div 2 */
+
+
+/* div 3 */
+.container-3 {
+    margin-bottom: 10rem;
+    gap: 2.4rem;
+}
+
+.head-3 {
+    font-size: 4.8rem;
+    line-height: 6rem;
+    font-weight: 700;
+}
+
+.parent-3 {
+    width: 1286.31px;
+    height: 446px;
+}
+
+.child-3 {
+    width: 29.1rem;
+    height: 44.6rem;
+    border-radius: 1.5rem;
+    padding: 2rem 1.5rem;
+    box-shadow: 0px 0px 11px 0px #00000026;
+}
+
+.main-head-4 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    width: 26.1rem;
+    height: 4rem;
+    color: var(--color-dark);
+}
+
+.sofa {
+    border-radius: 1.5rem;
+    height: 20rem;
+}
+
+.head-3 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    width: 26.1rem;
+    height: 4rem;
+    color: var(--color-dark);
+    margin-bottom: 4rem;
+}
+
+.uncut-price {
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+.cut-price {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+.icon-3 {
+    font-size: 1.5rem;
+    width: 19px;
+}
+/* div 3 */
+
+
+/* div 4 */
+.container-4 {
+    margin-bottom: 2.4rem;
+    gap: 24px;
+}
+/* div 4 */
+
+
+
+/* div 5 */

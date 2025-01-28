@@ -6,7 +6,7 @@
     font-family: "lato";
     font-size: 62.5%;
     text-decoration: none;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 @font-face {
@@ -71,8 +71,14 @@
     --bg-green: #008080;
     --bg-black: #000000;
     --bg-white: #ffffff;
+    --bg-dark: #333333;
 }
 
+
+.bg-dark {
+
+    background-color: var(--bg-dark);
+}
 
 .bg-green {
 
@@ -96,6 +102,12 @@
     --bg-green: #008080;
     --bg-black: #000000;
     --bg-white: #ffffff;
+    --color-dark: #333333;
+}
+
+.color-dark {
+
+    color: var(--bg-dark);
 }
 
 .color-white {
@@ -288,21 +300,34 @@
     font-size: 25px;
 }
 
-
+.border-radius {
+    border-radius: 1.5rem;
+}
 
 .cursor-pointer {
-
     cursor: pointer;
 }
 
 .bg-img-btn {
-
     background-color: var(--bg-green);
     color: var(--bg-white);
     border: none;
     font-size: 1.5rem;
-    padding: 0.8rem;
-    border-radius: 0.4rem;
+    padding: 1.2rem 2.4rem;
+    border-radius: 0.8rem;
     cursor: pointer;
     gap: 10px;
+}
+
+.btn-2 {
+    background-color: var(--bg-green);
+    color: var(--bg-white);
+    border: none;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    width: 261px;
+    height: 42px;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    gap: 8px;   
 }

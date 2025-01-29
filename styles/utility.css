@@ -9,6 +9,11 @@
     /* border: 1px solid black; */
 }
 
+body {
+    color: var(--color-black);
+    background-color: var(--bg-off-white);
+}
+
 @font-face {
     font-family: "poppins";
     src: url(../fonts/poppins/Poppins-Medium.ttf);
@@ -71,6 +76,7 @@
     --bg-green: #008080;
     --bg-black: #000000;
     --bg-white: #ffffff;
+    --bg-off-white: #FDFAFA;
     --bg-dark: #333333;
 }
 
@@ -78,6 +84,11 @@
 .bg-dark {
 
     background-color: var(--bg-dark);
+}
+
+.bg-off-white {
+
+    background-color: var(--bg-off-white);
 }
 
 .bg-green {
@@ -102,6 +113,7 @@
     --bg-green: #008080;
     --bg-black: #000000;
     --bg-white: #ffffff;
+    --color-off-white: #FDFAFA;
     --color-dark: #333333;
 }
 
@@ -110,6 +122,15 @@
     color: var(--bg-dark);
 }
 
+.color-white {
+
+    color: var(--bg-white);
+}
+
+.color-off-white {
+
+    color: var(--color-white);
+}
 .color-white {
 
     color: var(--bg-white);
@@ -279,6 +300,29 @@
 
     margin-top: 25px;
 }
+
+
+/* line-height */
+.line-height30 {
+    line-height: 3rem;
+}
+
+.line-height40 {
+    line-height: 4rem;
+}
+
+.line-height50 {
+    line-height: 5rem;
+}
+
+.line-height60 {
+    line-height: 6rem;
+}
+
+.line-height80 {
+    line-height: 8rem;
+}
+
 
 
 /* font size */

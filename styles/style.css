@@ -5,6 +5,7 @@
     font-weight: 700;
 }
 
+
 .div-nav-2 {
     width: 343px;
     font-size: 2rem;
@@ -21,7 +22,6 @@
 .nav {
     width: 343px;
     font-weight: 500;
-    line-height: 4rem;
 }
 
 .icons {
@@ -49,16 +49,13 @@
     line-height: 8rem;
     width: 713px;
     height: 16.8rem;
-    line-height: 80px;
 }
 
 .para-1 {
-
     width: 713px;
     height: 80px;
     line-height: 2.5rem;
     font-weight: 500;
-    line-height: 40px;
 }
 /* background img start */
 
@@ -68,6 +65,7 @@
     margin: 10rem 0rem;
     gap: 2.4rem;
 }
+
 .choosing {
     font-size: 4.8rem;
     width: 1240px;
@@ -165,7 +163,7 @@
 
 /* div 4 started */
 .container-4 {
-    margin-bottom: 2.4rem;
+    margin-bottom: 10rem;
     gap: 24px;
 }
 /* div 4 ended */
@@ -174,7 +172,7 @@
 
 /* div 5 started */
 .container-5 {
-    margin-bottom: 2.4rem;
+    margin-bottom: 10rem;
     gap: 24px;
 }
 
@@ -243,3 +241,30 @@
     color: var(--color-dark);
 }
 /* div 5 ended */
+
+
+/* div 6 started */
+.container-6 {
+    width: 577px;
+    height: 374px;
+    gap: 2.4rem;
+    margin: 2.4rem;
+}
+
+.head-6 {
+    width: 577px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#offer {
+    width: 576px;
+    height: 40px;
+    border: none;
+    background-color: var(--bg-off-white);
+    border-bottom: 0.8px solid #000000;
+    font-size: 1.5rem;
+}
+/* div 6 ended */

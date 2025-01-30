@@ -278,7 +278,7 @@
 }
 /* div 6 ended */
 
-
+/* footer started */
 .parent-footer {
     width: 1340px;
     height: 457.17px;
@@ -327,4 +327,8 @@
 
 .table-border-2 {
     border-right: 1px solid var(--color-black);
+}
+
+.radius {
+  border-radius: 50rpx;  
 }

@@ -393,5 +393,5 @@ body {
 
 .btn-2:hover {
     background-color: var(--bg-black);
-    color: var(--bg-green);
+    color: var(--color-white);
 }

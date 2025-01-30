@@ -1,6 +1,6 @@
 /*  navbar started */
 .div-nav-1 {
-    font-size: 3rem;
+    font-size: 4rem;
     width: 139px;
     font-weight: 700;
 }
@@ -22,6 +22,10 @@
 .nav {
     width: 343px;
     font-weight: 500;
+}
+
+.navbar:hover {
+    color: var(--color-green);
 }
 
 .icons {
@@ -210,7 +214,7 @@
 
 .men {
     width: 293px;
-    height: 402px; 
+    height: 332px; 
     border-radius: 1.5rem;
 }
 
@@ -231,6 +235,10 @@
     font-weight: 700;
 }
 
+.reviews:hover {
+    color: var(--color-dark);
+}
+
 .icon-5 {
     width: 48px;
     height: 48px;
@@ -249,6 +257,7 @@
     height: 374px;
     gap: 2.4rem;
     margin: 2.4rem;
+    margin-bottom: 15rem;
 }
 
 .head-6 {
@@ -268,10 +277,54 @@
     font-size: 1.5rem;
 }
 /* div 6 ended */
-.parent-header {
+
+
+.parent-footer {
     width: 1340px;
-    height: 547.17px;
+    height: 457.17px;
     background-color: var(--bg-white);
     box-shadow: 0px -4px 10px 0px #0000001A;
 }
 
+.parent-footer {
+    width: 100%;
+}
+
+.child-footer {
+    width: 90%;
+    margin: 3rem 0rem;
+}
+
+.subscribe {
+    width: 367.27px;
+    height: 20.97px;
+}
+
+.input-footer {
+    width: 345.24px;
+    height: 45.6px;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+.div-2-footer {
+    width: 100%;
+}
+
+.icon-footer {
+    margin: 0rem 1rem;
+}
+
+.span-border {
+    border-right: 1px solid var(--color-green);
+}
+
+.table-border {
+    border-right: 1px solid var(--color-green);
+}
+
+.table-border-2 {
+    border-right: 1px solid var(--color-black);
+}

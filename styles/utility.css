@@ -6,7 +6,7 @@
     font-family: "lato";
     font-size: 62.5%;
     text-decoration: none;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 body {
@@ -116,9 +116,9 @@ body {
 
 :root {
 
-    --bg-green: #008080;
-    --bg-black: #000000;
-    --bg-white: #ffffff;
+    --color-green: #008080;
+    --color-black: #000000;
+    --color-white: #ffffff;
     --color-off-white: #FDFAFA;
     --color-dark: #333333;
 }
@@ -213,6 +213,10 @@ body {
 .align-around {
 
     align-items: space-around;
+}
+
+.flex-grow {
+    flex-grow: 2;
 }
 
 /* gap */
@@ -369,6 +373,11 @@ body {
     gap: 10px;
 }
 
+.bg-img-btn:hover {
+    background-color: var(--bg-white);
+    color: var(--color-green);
+}
+
 .btn-2 {
     background-color: var(--bg-green);
     color: var(--bg-white);
@@ -380,4 +389,9 @@ body {
     border-radius: 0.4rem;
     cursor: pointer;
     gap: 8px;   
+}
+
+.btn-2:hover {
+    background-color: var(--bg-black);
+    color: var(--bg-green);
 }

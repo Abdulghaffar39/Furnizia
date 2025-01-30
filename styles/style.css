@@ -5,7 +5,6 @@
     font-weight: 700;
 }
 
-
 .div-nav-2 {
     width: 343px;
     font-size: 2rem;
@@ -327,8 +326,4 @@
 
 .table-border-2 {
     border-right: 1px solid var(--color-black);
-}
-
-.radius {
-  border-radius: 50rpx;  
 }

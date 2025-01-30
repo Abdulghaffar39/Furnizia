@@ -362,6 +362,7 @@ body {
     cursor: pointer;
 }
 
+/* btn 1 started */
 .bg-img-btn {
     background-color: var(--bg-green);
     color: var(--bg-white);
@@ -377,7 +378,10 @@ body {
     background-color: var(--bg-white);
     color: var(--color-green);
 }
+/* btn 1 ended */
 
+
+/* btn 2 started */
 .btn-2 {
     background-color: var(--bg-green);
     color: var(--bg-white);
@@ -395,3 +399,23 @@ body {
     background-color: var(--bg-black);
     color: var(--color-white);
 }
+/* btn 2 ended */
+
+
+/* btn 3 starte */
+.submit-btn {
+    background-color: var(--bg-green);
+    color: var(--bg-white);
+    border: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    
+}
+
+.submit-btn:hover {
+    background-color: var(--bg-black);
+    color: var(--color-white);
+}
+/* btn 3 ended */

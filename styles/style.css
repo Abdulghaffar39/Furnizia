@@ -1,4 +1,9 @@
+.container {
+    overflow: hidden;
+}
+
 /*  navbar started */
+
 .div-nav-1 {
     font-size: 4rem;
     width: 139px;
